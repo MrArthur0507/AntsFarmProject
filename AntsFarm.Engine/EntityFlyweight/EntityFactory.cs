@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AntsFarm.Models.Entities.Interfaces
+namespace AntsFarm.Engine.EntityFlyweight
 {
-    public interface IBoard
+    public class EntityFactory
     {
-        public IPathFindable[,] GetBoard();
+
     }
 }

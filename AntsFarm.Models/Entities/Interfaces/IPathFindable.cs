@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AntsFarm.Models.Entities.Interfaces
 {
-    public interface IPathFindable
+    public interface IPathFindable : IBaseEntity
     {
         bool IsWalkable { get; }
         Point Location { get; }

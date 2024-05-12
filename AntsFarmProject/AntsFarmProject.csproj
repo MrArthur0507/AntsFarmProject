@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AntsFarm.Engine\AntsFarm.Engine.csproj" />
     <ProjectReference Include="..\AntsFarm.Renderer\AntsFarm.Renderer.csproj" />
   </ItemGroup>
 

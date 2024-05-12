@@ -10,6 +10,7 @@ namespace AntsFarm.Models.Entities.NPCs
     {
         public Obstacle() {
             IsWalkable = false;
+            Symbol = 'O';
         }
     }
 }
